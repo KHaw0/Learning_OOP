@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DemoPerson",
+            "request": "launch",
+            "mainClass": "OOP_W2.Ch01.DemoPerson",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "Run Java (UTF-8)",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "-Dfile.encoding=UTF-8",
+            "encoding": "UTF-8"
+        }
+    ]
+}
