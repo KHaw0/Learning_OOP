@@ -7,17 +7,18 @@ public class Person {
     public Person fan;
     Person[] gig = new Person[2];
  
-    public Person (String name){
+    Person (String name){
         this.name = name;
     }
 
-    public Person (String name, char gender, String telno){
+    Person (String name, char gender, String telno){
         this.name = name;
         this.gender = gender;
         this.telno = telno;
     }
-
-    /*public public String toString (){
+    /*
+    @Override
+    public public String toString (){
         return name;
     }*/
 
@@ -56,13 +57,12 @@ public class Person {
     public String setGig(Person gig){
         if(this.gig[0] == null){
             this.gig[0] = gig;
-            return "";
         } else if(this.gig[1] == null){
             this.gig[1] = gig;
-            return "";
         } else {
             return "แค่ 2 คนพอแล้ว";
         }
+        return null;
     }
 
     public String getGig(Person requester){
@@ -72,7 +72,7 @@ public class Person {
             for (int i = 0; i < gig.length; i++) {
                 System.out.print(gig[i].name + " ");
             }
-            return "";
+            return null;
         }
     }
 

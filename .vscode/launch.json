@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Family",
+            "request": "launch",
+            "mainClass": "OOP_W3.Family",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "DemoPerson",
             "request": "launch",
             "mainClass": "OOP_W2.Ch01.DemoPerson",
