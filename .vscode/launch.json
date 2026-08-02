@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab4App",
+            "request": "launch",
+            "mainClass": "OOP_W4.Lab4App",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "Lab3App",
+            "request": "launch",
+            "mainClass": "OOP_W4.Lab3App",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "Lab2App",
+            "request": "launch",
+            "mainClass": "OOP_W4.Lab2App",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "Lab1App",
+            "request": "launch",
+            "mainClass": "OOP_W4.Lab1App",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "Family",
             "request": "launch",
             "mainClass": "OOP_W3.Family",
