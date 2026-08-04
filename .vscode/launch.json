@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ColorApp",
+            "request": "launch",
+            "mainClass": "OOP_W5.ColorApp",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "MutiTableApp",
+            "request": "launch",
+            "mainClass": "OOP_W5.MutiTableApp",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorldApp",
+            "request": "launch",
+            "mainClass": "OOP_W5.HelloWorldApp",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "Lab4App",
             "request": "launch",
             "mainClass": "OOP_W4.Lab4App",
