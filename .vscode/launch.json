@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ColorMix",
+            "request": "launch",
+            "mainClass": "OOP_EX4.ColorMix",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "BarWidth",
             "request": "launch",
             "mainClass": "OOP_EX3.BarWidth",

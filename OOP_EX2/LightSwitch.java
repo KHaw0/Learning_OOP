@@ -15,7 +15,7 @@ public class LightSwitch extends JFrame {
 
     LightSwitch() {
         setTitle("Light Switch");
-        setSize(400, 400);
+        setSize(350, 350);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
