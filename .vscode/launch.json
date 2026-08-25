@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LightSwitch",
+            "request": "launch",
+            "mainClass": "OOP_EX2.LightSwitch",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "OOPConcept",
             "request": "launch",
             "mainClass": "OOP_EX1.OOPConcept",
