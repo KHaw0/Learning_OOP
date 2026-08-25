@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyApp",
+            "request": "launch",
+            "mainClass": "test_OOP_Mid.MyApp",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "ColorApp",
             "request": "launch",
             "mainClass": "OOP_W5.ColorApp",
