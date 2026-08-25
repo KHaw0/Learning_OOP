@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OOPConcept",
+            "request": "launch",
+            "mainClass": "OOP_EX1.OOPConcept",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "MyApp",
             "request": "launch",
             "mainClass": "test_OOP_Mid.MyApp",
