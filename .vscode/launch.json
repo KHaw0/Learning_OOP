@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StopWatch",
+            "request": "launch",
+            "mainClass": "OOP_W6.ch3.StopWatch",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "RainLetter",
             "request": "launch",
             "mainClass": "OOP_W6.ch2.RainLetter",
