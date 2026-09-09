@@ -3,6 +3,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RainLetter",
+            "request": "launch",
+            "mainClass": "OOP_W6.ch2.RainLetter",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "RandomColor",
+            "request": "launch",
+            "mainClass": "OOP_W6.ch1.RandomColor"
+        },
+        {
+            "type": "java",
             "name": "ColorMix",
             "request": "launch",
             "mainClass": "OOP_EX4.ColorMix",
