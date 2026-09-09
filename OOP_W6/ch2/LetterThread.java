@@ -32,11 +32,11 @@ class LetterThread extends Thread {
                 if (y > maxY)
                     y = 50;
             }
-            // try {
-            //     Thread.sleep(40);
-            // } catch (Exception e) {
+            try {
+                Thread.sleep(40);
+            } catch (Exception e) {
 
-            // }
+            }
         }
     }
 }
