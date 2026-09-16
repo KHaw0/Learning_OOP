@@ -56,9 +56,8 @@ public class Scene extends JPanel implements MouseMotionListener, MouseListener 
         g.drawString("Ghost Hunter", 700, 100);
         g.drawRect(665, 50, 300, 70);
 
-        
         g.drawImage(sight, x, y, this);
-        
+
         int dead = 0;
         for (int i = 0; i < posX.length; i++) {
             if (show[i]) {
@@ -75,6 +74,7 @@ public class Scene extends JPanel implements MouseMotionListener, MouseListener 
             }
             g.drawString("Time: " + diffSec + "sec.", 370, 300);
         }
+
         if (shot) {
             g.setColor(Color.RED);
             g.drawLine(500, 563, x + 50, y + 50);
@@ -124,7 +124,6 @@ public class Scene extends JPanel implements MouseMotionListener, MouseListener 
     @Override
     public void mouseReleased(MouseEvent e) {
         shot = false;
-        System.out.println("!!!");
     }
 
     @Override

@@ -2,9 +2,9 @@ package GhostHunter;
 
 import javax.swing.*;
 
-public class Game extends JFrame{
-    
-    Game(){
+public class Game extends JFrame {
+
+    Game() {
         setSize(1000, 563);
         setLayout(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

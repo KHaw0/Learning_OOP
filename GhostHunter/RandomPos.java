@@ -15,8 +15,8 @@ public class RandomPos extends TimerTask {
 
     @Override
     public void run() {
-        game.posX[threadId] += -20 + (int)(Math.random() * 41);
-        game.posY[threadId] += -20 + (int)(Math.random() * 41);
+        game.posX[threadId] += -20 + (int) (Math.random() * 41);
+        game.posY[threadId] += -20 + (int) (Math.random() * 41);
 
         if (game.posX[threadId] < 0)
             game.posX[threadId] = 0;
