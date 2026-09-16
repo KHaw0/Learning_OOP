@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "GhostHunter.Game",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "OOP_W6.ch3.test",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "StopWatch",
             "request": "launch",
             "mainClass": "OOP_W6.ch3.StopWatch",
