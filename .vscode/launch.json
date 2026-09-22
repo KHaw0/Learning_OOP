@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "OOP_W8.Test",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
+            "name": "JChat",
+            "request": "launch",
+            "mainClass": "OOP_W8.JChat",
+            "projectName": "Learning_OOP_2ebc18a7"
+        },
+        {
+            "type": "java",
             "name": "Game",
             "request": "launch",
             "mainClass": "GhostHunter.Game",

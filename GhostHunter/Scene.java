@@ -68,10 +68,9 @@ public class Scene extends JPanel implements MouseMotionListener, MouseListener 
         }
 
         if (n == dead) {
-            if (diffSec == 0) {
+            if (diffSec == 0) 
                 stop = new Date();
-                diffSec = Math.abs(stop.getTime() - start.getTime()) / 1000.0;
-            }
+            diffSec = Math.abs(stop.getTime() - start.getTime()) / 1000.0;
             g.drawString("Time: " + diffSec + "sec.", 370, 300);
         }
 
@@ -100,16 +99,16 @@ public class Scene extends JPanel implements MouseMotionListener, MouseListener 
     public void mousePressed(MouseEvent e) {
         shot = true;
 
-        try {
-            File f = new File(System.getProperty("user.dir") + "/GhostHunter/gun.wav");
-            AudioInputStream stream = AudioSystem.getAudioInputStream(f);
-            AudioFormat format = stream.getFormat();
-            Clip clip = (Clip) AudioSystem.getLine(new DataLine.Info(Clip.class, format));
-            clip.open(stream);
-            clip.start();
-        } catch (Exception er) {
-            System.out.println(er.getMessage());
-        }
+        // try {
+        //     File f = new File(System.getProperty("user.dir") + "/GhostHunter/gun.wav");
+        //     AudioInputStream stream = AudioSystem.getAudioInputStream(f);
+        //     AudioFormat format = stream.getFormat();
+        //     Clip clip = (Clip) AudioSystem.getLine(new DataLine.Info(Clip.class, format));
+        //     clip.open(stream);
+        //     clip.start();
+        // } catch (Exception er) {
+        //     System.out.println(er.getMessage());
+        // }
 
         int cx = e.getX(), cy = e.getY();
         for (int i = 0; i < n; i++) {
